@@ -1,0 +1,104 @@
+/*  CSS portal de viagens */
+
+body{
+	margin: 50px;
+	font-family:sans-serif;
+}
+
+header{
+	background:#293449;
+	padding: 1px 2px;
+	height: 100px;	
+}
+
+.container{
+	width: 300px;
+	height: 30px;
+	margin-left: 1500px;
+	color: white;
+	text-align: right;
+	margin-top: 47px
+}
+
+#menu-esq{
+	color: white;
+	margin-left: 40px;
+	float: left;
+	margin-top: 40px;
+	font-size: 25px;
+	
+	
+}
+
+#menu-dir1{
+   word-spacing: 20px ;
+}
+
+
+
+.box{
+	background: #44B996;
+	color: white;
+	text-align: center;
+	padding: 100px 50px;
+	
+}
+
+#consulta{
+	color: #293449;
+	text-align: center;
+}
+
+.box1{
+	padding: 15px 32px;
+}
+
+#pesquisa{
+	color: darkgrey;
+	margin-left: 620px;
+	margin-right: 120px;
+	width: 600px;
+}
+
+hr{
+	width: 600px;
+	color: darkgrey;
+	opacity: 80%;
+}
+
+buttom{
+  background-color: #44B996;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-left: 620px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+buttom, #pesquisa {
+   margin-left: 0px;
+   }
+
+.container{
+	margin-left: 100px;
+	width: 500px;
+	height: 30px;
+	font-size: 15px;
+	}	
+	
+#menu-dir1{
+   word-spacing: 10px ;
+   }
+	
+#menu-esq{
+	font-size: 20px;
+	}
+}
