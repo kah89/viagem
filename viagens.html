@@ -3,26 +3,35 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Portal de Viagens</title>
-        <link rel="stylesheet" type="text/css" href="css/viagem.css">
+       
+        <link rel="stylesheet" href="css/viagem.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </head>
     <body >
-       <header>
-       	<p id="menu-esq">PORTAL DE VIAGENS</p>
+       <header class="container-fluid">
+       <div class="row justify-content-md-center">
+       	<p  class="col-md-6 offset-md-4 col-6" id="menu-esq">PORTAL DE VIAGENS</p>
        	<div class="container">
-       	<P id="menu-dir1" >DESTINOS VALORES CONTATO </P>
-       
+       	<P class="col-md-6 offset-md-4 col-6" id="menu-dir1" >DESTINOS VALORES CONTATO </P>
+        </div>
         </div>
        </header>
        
-       <div class="box">
-       <img src="img/disco2.png" alt="imagem de disco voador">
-       	<H1>AS MELHORES NAVES!</H1>
-       	<P>Preços especiais para os planetas da federação galática. Visite ainda universos, dimensões e realidades alternativas!</P>
+       <div class="container-fluid box" id="box">
+       <div class="row justify-content-md-center">
+       <img class="col-md-2 offset-md-3 col-7" src="img/disco2.png" alt="imagem de disco voador">
+       	<H1 class="col-md-5 offset-md-3 col-12" id="titulo">AS MELHORES NAVES!</H1>
+       	<P  class="col-md-5 offset-md">Preços especiais para os planetas da federação galática. Visite ainda universos, dimensões e realidades alternativas!</P>
+       </div>
        </div>
        
-       <div class="box1">
-       	<H1 id="consulta">CONSULTAR VALORES</H1>
-       	<div id="box3">
+       <div class="container-fluid">
+       <div class="row">
+       	<H1  class="col-md-6 offset-md-3 col-6" id="consulta">CONSULTAR VALORES</H1>
+       	<div  class="col-md-6 offset-md-3"id="box3">
        	<P id="pesquisa">Origem</P>
        	<hr>
        	<p id="pesquisa">Destino</p>
@@ -34,6 +43,6 @@
        	<buttom>Consultar</buttom>
        	</div>
        </div>
-        
+        </div>
     </body>
 </html>
